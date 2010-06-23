@@ -84,4 +84,6 @@ This functions get plain text from `set*` functions
 
 `url` (string|function) url where send files, or function which will return it
 
-`sendBoundary` (bool) format headers to emulate usual form file sending. Look [http://code.google.com/p/jquery-html5-upload/issues/detail?id=7 issue 7] for more info
+`sendBoundary` (bool) format headers to emulate usual form file sending. Look [http://code.google.com/p/jquery-html5-upload/issues/detail?id=7 issue 7] and [http://code.google.com/p/jquery-html5-upload/issues/detail?id=9 issue 9] for more info
+
+`fieldName` (string|function) if setBoundary is true, value for file field name
